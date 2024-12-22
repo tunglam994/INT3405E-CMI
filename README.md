@@ -1,1 +1,2 @@
-# INT3405E-CMI-
+# Child Mind Institute - Problematic Internet Use
+Project of Machine Learning - INT3405E
