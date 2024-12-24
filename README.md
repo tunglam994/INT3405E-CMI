@@ -37,6 +37,6 @@ Members:
 - **Early Stopping and Regularization**: Implement early stopping and weight decay for deep learning models to prevent overfitting and improve generalization.
 - **Threshold Optimization**: Fine-tune decision thresholds that map continuous predictions to discrete categories (None, Mild, Moderate, Severe).
 
-### Infernece
+### Inference
 - **Majority Voting**: Combine predictions from multiple models, selecting the majority class to improve reliability and reduce overfitting.
 
