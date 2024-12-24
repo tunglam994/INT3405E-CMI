@@ -7,6 +7,7 @@ Members:
 
 ## Repository Structure
 ```
+|
 |---- experiments 
 |---- feature-eda 
 ```
