@@ -42,17 +42,18 @@ Members:
 
 ## Experiments and result
 | Experiments                                      | Private | Public |
-|--------------------------------------------------------|---------|--------|
-| Baseline                                         | 0.383   | 0.431  |
-| CatBoost - Feature engineering CSV data          | 0.446   | 0.428  |
-| CatBoost - Feature engineering full data         | 0.440   | 0.437  |
-| FT-Transformer - Feature engineering full data   | 0.334   | 0.343  |
-| Stacking Regressor - GBDT - CSV data             | 0.442   | 0.448  |
-| Voting Regressor - GBDT - CSV data               | **0.447** | **0.459**  |
-| Voting Regressor - GBDT - full data              | 0.431   | 0.431  |
-| Major Voting - TabNet + FT-Transformer + GBDT - full data | 0.420 | 0.428  |
-| Major Voting - FT-Transformer + GBDT - CSV data  | 0.440   | 0.441  |
-| Major Voting - FT-Transformer + GBDT - full data | 0.435   | 0.449  |
+|--------------------------------------------------|---------|--------|
+| [Baseline](./experiments/baseline.ipynb)         | 0.383   | 0.431  |
+| [CatBoost - Feature engineering CSV data](./experiments/catboost_csv_fe.ipynb)         | 0.446   | 0.428  |
+| [CatBoost - Feature engineering full data](./experiments/catboost_full_fe.ipynb)        | 0.440   | 0.437  |
+| [FT-Transformer - Feature engineering full data](./experiments/ft-transformer-full_fe.ipynb)  | 0.334   | 0.343  |
+| [Stacking Regressor - GBDT - CSV data](./experiments/treebased_stacking_csv.ipynb)            | 0.442   | 0.448  |
+| [Voting Regressor - GBDT - CSV data](./experiments/treebased_voting_csv.ipynb)              | **0.447** | 0.459  |
+| [Voting Regressor - GBDT - full data](./experiments/treebased_voting_full_fe.ipynb)             | 0.431   | 0.431  |
+| [Major Voting - TabNet + FT-Transformer + GBDT - full data](./experiments/mv(tabnet)_full_fe.ipynb) | 0.420 | 0.428  |
+| [Major Voting - FT-Transformer + GBDT - CSV data](./experiments/mv-csv_fe.ipynb) | 0.440   | 0.441  |
+| [Major Voting - FT-Transformer + GBDT - full data](./experiments/mv-full_fe.ipynb) | 0.435   | 0.449  |
+
 
 
 
