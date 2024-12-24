@@ -15,6 +15,7 @@ Members:
 - `feature-eda`: include EDA notebooks for tabular (CSV) and actigraphy  data.
 
 ## Our pipeline
+![Pipeline](pipeline.png)
 ### Data processing
 - **Tabular data**:
   - We first began by removing negative or abnormally high physical measurements to prevent extreme values from skewing the models.
