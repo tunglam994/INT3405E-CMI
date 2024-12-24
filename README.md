@@ -40,9 +40,9 @@ Members:
 ### Inference
 - **Majority Voting**: Combine predictions from multiple models, selecting the majority class to improve reliability and reduce overfitting.
 
-## Experiments and result
-| Experiments                                      | Private | Public |
-|--------------------------------------------------|---------|--------|
+## Experiments and results
+| Experiments                                      | Private score | Public score |
+|--------------------------------------------------|---------------|--------------|
 | [Baseline](./experiments/baseline.ipynb)         | 0.383   | 0.431  |
 | [CatBoost - Feature engineering CSV data](./experiments/catboost_csv_fe.ipynb)         | 0.446   | 0.428  |
 | [CatBoost - Feature engineering full data](./experiments/catboost_full_fe.ipynb)        | 0.440   | 0.437  |
