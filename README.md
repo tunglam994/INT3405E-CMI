@@ -31,7 +31,7 @@ Members:
 - **Deep Learning models**: we experimented `TabNet` and `FT-Transformer`.
 
 ### Training and evaluate
-- **Cross Validation**:  split the data into training and validation sets, ensuring balanced class distribution in each fold.
+- **Cross Validation**: `StratifiedKFold` split the data into training and validation sets, ensuring balanced class distribution in each fold.
 - **Quadratic Weighted Kappa (QWK)**: measures the agreement between predicted and actual values, taking into account the ordinal nature of the target variable.
 - **Ensemble Learning**: Combine models using ensemble techniques to improve prediction accuracy and robustness.
 - **Early Stopping and Regularization**: Implement early stopping and weight decay for deep learning models to prevent overfitting and improve generalization.
