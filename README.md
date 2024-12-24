@@ -7,9 +7,9 @@ Members:
 
 ## Repository Structure
 ```
-|
-|---- experiments 
-|---- feature-eda 
+.
+├── experiments
+├── feature-eda
 ```
 - `experiments`: contains notebooks related to experimental runs and analyses.
 - `feature-eda`: include EDA notebooks for tabular (CSV) and actigraphy  data.
